@@ -1,0 +1,55 @@
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+header {
+    background-color: salmon;
+    padding: 48px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 60px;
+    font-size: 48px;
+    color: white;
+}
+
+nav a {
+    color: white;
+}
+
+#image_containter {
+    float: left;
+    margin: 12px;
+    padding-right: 24px;
+}
+
+#lego {
+    width: 400px;
+}
+
+#div_2{
+    margin: 24px;
+    border: 2px solid salmon;
+    padding: 16px;
+    /*
+    offset-x offset-y
+    blur-radius spread-radius
+    color
+*/
+    box-shadow: inset 4px 4px 8px 2px gray
+}
+
+.card {
+    margin: 24px;
+border: 3px solid salmon;
+padding: 16px;
+}
+
+footer {
+    background-color: salmon;
+    padding: 24px;
+}
+
+
