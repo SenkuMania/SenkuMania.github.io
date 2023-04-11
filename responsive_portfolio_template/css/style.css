@@ -161,11 +161,57 @@ footer ul {
 /****************************************************************************
   Hero styles
 ****************************************************************************/
+#hero {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url("../images/abstractBackground.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
 
+#hero a,
+.card a {
+    background-color: white;
+    color: red;
+    border: 2px solid red;
+    border-radius: 24px;
+    display: inline-block;
+    padding: 8px 16px;
+    margin-top: 12px;
+    min-width: 150px;
+    transition: transform 0.25s;
+}
+
+#hero a:hover {
+    transform: scale(1.1);
+}
 /****************************************************************************
   Card styles
 ****************************************************************************/
+#three_cards,
+#two_cards {
+    display: flex;
+}
 
+.card {
+    border: 2px solid red;
+    color: red;
+    margin: 48px 24px 24px;
+    padding: 12px 12px 24px;
+    text-align: center;
+    box-shadow: 4px 4px 8px 0px grey;
+}
+
+.card p {
+    font-size: 18px;
+    flex: 1;
+    margin-top: 0px;
+}
 /****************************************************************************
   Gallery styles
 ****************************************************************************/
@@ -188,5 +234,13 @@ footer ul {
 
     nav {
         flex-direction: column;
+    }
+    #three_cards,
+    #two_cards {
+        flex-direction: column;
+    }
+    .card {
+        align-items: center;
+        margin: 36px 24px 0px;
     }
 }
