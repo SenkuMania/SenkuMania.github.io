@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>  
+       <meta charset="UTF-8">
+       <meta http-equiv="X-UA-Compatible" content="IE=edge">
+       <meta name="viewport" content="width=device-width, intial-scale=1.0">
+       <title>Document</title>
+     <link href="css/style.css" rel="stylesheet">
+    </head>
+     <body>
+    <section id="grid_container">
+         <header>
+         <h1>Contact Us</h1>
+         <h5>
+          Got a question? We'd love to 
+          hear from you! Send us a 
+          message and we'll respond
+          as soon as possible.
+         </h5>
+         </header>
+         <main>
+          <form>
+            <fieldset id="card">
+             <h4>What can we help you with?</h4>
+             <div>
+              <label for="medical_group_id">
+            </label>
+            <select id="medical_group_id" name="medical_group">
+                <option value="Options">Select what we can help you  with.</option>
+                <option value="checkup">Doctor's Appointment</option>
+                <option value="sickness">Covid Symptyms</option>
+                <option value="pain">Injuries</option>
+                <option value="appointment">Schedule Change</option>
+                </select>
+             </div>
+
+             <div></div>
+             <b><label for="name_id">Name</label></b>
+              <input type="text" id="name_id" name="name">
+             </div>
+
+             <div>
+              <b><label for="email_id">Email</label></b>
+               <input type="text" id="email_id" name="email">
+              </div>
+
+              <div>
+                <b><label for="message_id">Message</label></b>
+                <textarea 
+                id="message_id" 
+                name="message">
+                </textarea>
+                </div>
+                <div>
+                  <input type="button" value="Send">
+                </div>
+
+            </fieldset>
+          </form>
+         </main>
+         </section>
+     </body>
+ </html>
