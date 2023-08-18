@@ -1,0 +1,44 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the Generic License assignment.
+
+    Good luck, and have fun!
+*/
+span {
+    color: red;
+    font-family: 'Gill Sans';
+}
+#data-right, #data-fields {
+    color: darkblue;
+}
+
+h4 {
+    color: white;
+    background-color: darkblue;
+    font-size: 20px;
+    font-family: 'Gill Sans';
+    font-weight: lighter;
+    text-align: center;
+}
+
+h1 {
+color: darkblue;
+}
+
+#address {
+    font-family:'Gill Sans';
+}
+
+#license {
+    background-color: peachpuff;
+    border-radius: 50px;
+    width: 500px;
+    height: 300px;
+}
+
+#donor-and-real-id {
+    color: red;
+    font-family: 'Gill Sans';
+}
