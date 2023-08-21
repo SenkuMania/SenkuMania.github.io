@@ -1,0 +1,54 @@
+.item {
+    background-color: peachpuff;
+    width: 100%;
+    margin: 0% auto;
+    padding: 10px;
+    text-align: center;
+    font-style: italic;
+    font-family: 'Gill Sans';
+
+}
+
+.item img {
+    width: 100%;
+    margin: 10px;
+}
+
+.item2 {
+    background-color: peachpuff;
+    width: 90%;
+    margin: 0% auto;
+    padding: 20px;
+    text-align: center;
+    font-style: italic;
+    font-family: 'Gill Sans';
+
+}
+
+.item2 img {
+    width: 100%;
+    margin: 10px;
+}
+
+.item3 {
+    background-color: peachpuff;
+    width: 90%;
+    margin: 0% auto;
+    padding: 20px;
+    text-align: center;
+    font-style: italic;
+    font-family: 'Gill Sans';
+
+}
+
+.item3 img {
+    width: 100%;
+    margin: 10px;
+    padding: ;
+}
+
+#p1, #p2, #p3 {
+    font-size: 25px;
+    font-weight: lighter;
+}
+
