@@ -33,7 +33,7 @@ color: darkblue;
 
 #license {
     background-color: peachpuff;
-    border-radius: 50px;
+    border-radius: 40px;
     width: 500px;
     height: 300px;
 }
@@ -41,4 +41,8 @@ color: darkblue;
 #donor-and-real-id {
     color: red;
     font-family: 'Gill Sans';
+}
+
+#id-and-expiration {
+    
 }
