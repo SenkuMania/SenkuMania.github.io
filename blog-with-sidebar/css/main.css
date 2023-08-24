@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1, h2, h3 {
+    font-family: 'Georgia';
+}
+p, a, li, span {
+    font-family: 'Arial';
+}
+
+img {
+    width: 100%;
+}
+
+#logo {
+    text-align: center;
+    margin: 25px auto;
+    font-family: 'Times New Roman';
+    font-size: 10vw;
+}
+
+#two-col {
+   display: flex;
+   column-gap: 24px;
+    width: 200px;
+}
+
+#sidebar {
+    grid-area: sidebar;
+    color: black;
+    position: sticky;
+    top: 25px;
+    height: min-content;
+}
+.sidebar h2 {
+   border-bottom: 2px solid white;
+   padding-bottom: 10px;
+}
+.sidebar ul {
+    border: 10px ridge green;
+    background-color: green;
+    list-style-type: none;
+    display: flex;
+    flex-flow: column wrap;
+    gap: 15px;
+    margin-bottom: 25px;
+}
+.sidebar a {
+    color: white;
+    text-decoration: none;
+    transition: all .5s;
+}
+.sidebar a:hover {
+    color: pink;
+    font-size: 1.125em;
+}
+
+#main {
+    text-align: center;
+}
+.main h1 {
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+.main .author, .main .date {
+    margin-top: 10px;
+    display: inline-block;
+    padding-right: 20px;
+}
+
+.main .seven-seas {
+    display: flex;
+    margin: 20px 0;
+}
+.main .seven-seas div {
+    flex: 1;
+    height: 50px;
+} 
+.main .seven-seas div:last-child {
+    border-right: none;
+}
+
+.main .imgtext {
+    display: flex;
+    gap: 25px;
+    margin-bottom: 25px;
+}
+.main .imgtxt p {
+    flex: 1;
+}
+.main .imgtxt div {
+    flex: 3;
+}
+.about {
+   display: grid;
+   grid-template-rows: 1fr 1fr;
+}
+#about .content {
+   grid-area: abt;
+}
+#about .img-contain {
+    grid-area: abting;
+}
