@@ -1,0 +1,63 @@
+/*
+    Write your CSS for the assignment here.
+
+    You shouldn't need to modify the HTML;
+    however, you are allowed to. 
+    
+    Just be aware that you may break some
+    of the setup.css styling if you do so.
+*/
+
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#card-style-1 {
+    min-width: 350px;
+    margin: 24px auto;
+    justify-content: center;
+    flex: wrap;
+}
+.card-style-1 img {
+    width: 100%;
+    height: 150;
+    object-fit: cover;
+}
+.card-style-1 h2 {
+    font-size: 24px;
+    text-align: center;
+    background-color: white;
+}
+.card-style-1 p {
+    font-size: 15px;
+    text-align: center;
+    padding: 10px;
+}
+
+#trek-card-1 {
+    margin: 24px;
+    padding: 0px;
+    width: 350px;
+  background-color: white;
+  box-shadow: 4px 2px 4px #111;
+}
+
+.anchor-button {
+    display: block;
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    text-align: center;
+    padding: 20px;
+    transition: 
+    background-color .5s, 
+    color .5s;
+}
+.anchor-button:hover {
+    border: 1px solid green;
+}
