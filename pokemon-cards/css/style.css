@@ -1,0 +1,73 @@
+/*
+    Write your CSS for the assignment here.
+
+    You shouldn't need to modify the HTML;
+    however, you are allowed to. 
+    
+    Just be aware that you may break some
+    of the setup.css styling if you do so.
+*/
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#main {
+        width: 350px;
+        margin: 24px auto;
+        display: flex;
+        justify-content: center;
+        flex: wrap;
+}
+
+.card-style-1 {
+    margin: 24px;
+    width: 350px;
+    padding: 24;
+    border: 5px solid #aae300;
+    border-radius: 15px;
+    box-shadow: inset -4px 4px 12px #ddd;
+    background: linear-gradient(-50deg, #ffe606, #ffc400, 
+    #d4ff00);
+}
+
+.card-style-1 img {
+  width: 350px;
+    padding: 24px;
+   object-fit: cover;
+}
+.card-style-1 h2 {
+    text-align: left;
+    font-size: 36px;
+    margin-top: 12px;
+}
+
+.health {
+    padding: 10px;
+    text-align: end;
+    font-size: 20px;
+}
+.details {
+    background-color: #f9ae24;
+}
+.power {
+    text-align: right;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.card-style-1 span {
+    font-weight: bold;
+}
+.description {
+    text-align: center;
+}
+.data {
+    text-align: center;
+    font-size: 10px;
+    font-weight: bold;
+    border: 1px solid orangered;
+}
