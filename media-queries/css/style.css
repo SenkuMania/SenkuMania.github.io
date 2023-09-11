@@ -1,0 +1,209 @@
+/* Google Font API imports - found at https://fonts.google.com/ */
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300&family=Secular+One&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+a {
+    font-family: 'Secular One', sans-serif;
+}
+
+h4,
+p {
+    font-family: 'Assistant', sans-serif;
+}
+
+h1 {
+    font-size: 60px;
+    margin-bottom: 0;
+}
+
+h4 {
+    font-size: 18px;
+    margin-top: 4px;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav, nav a,footer a {
+    color: indigo;
+}
+
+nav a:hover,footer a:hover {
+    text-decoration: underline;
+}
+
+#site-grid {
+    display: grid;
+    grid-template-columns: 1fr 800px 1fr;
+    grid-auto-rows: minmax(50px, auto);
+    grid-template-areas: 
+        "nav_area nav_area nav_area" 
+        "hero_area hero_area hero_area"
+        ". three_cards_area ."
+        ". carousel_area ."
+        ". gallery_area ."
+        ". two_cards_area ."
+        "footer_area footer_area footer_area";
+}
+
+section {
+    border: 4px solid indigo;
+}
+
+nav {
+    grid-area: nav_area;
+}
+
+#hero {
+    grid-area: hero_area;
+}
+
+#three-cards {
+    grid-area: three_cards_area;
+}
+
+#two-cards {
+    grid-area: two_cards_area;
+}
+
+footer {
+    grid-area: footer_area;
+}
+
+nav {
+    align-items: center;
+    display: flex;
+    margin: 0 24px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+#nav-links {
+    justify-content: center;
+}
+
+#nav-links,
+.social-media {
+    display: flex;
+    list-style-type: none;
+}
+
+#nav-links li,
+.social-media li {
+    padding: 0 4px;
+}
+
+nav .social-media {
+    justify-content: flex-end;
+    padding-left: 0;
+}
+
+.social-media i {
+    font-size: 20px;
+}
+
+nav,
+nav a,
+footer a {
+    color: indigo;
+}
+
+nav a:hover,
+footer a:hover {
+    text-decoration: underline;
+}
+
+nav ul,
+nav h2 {
+    flex: 1;
+    margin: 0;
+    padding: 0;
+}
+
+footer ul {
+    padding: 0;
+}
+
+#hero {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url("../images/abstractBackground.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+
+#hero a,
+.card a {
+    background-color: white;
+    color: red;
+    border: 2px solid red;
+    border-radius: 24px;
+    display: inline-block;
+    padding: 8px 16px;
+    margin-top: 12px;
+    min-width: 150px;
+    transition: transform 0.25s;
+}
+
+#hero a:hover {
+    transform: scale(1.1);
+}
+
+#three-cards,
+#two-cards {
+    display: flex;
+    height: 500px;
+}
+
+.card {
+    border: 2px solid red;
+    color: red;
+    margin: 48px 24px 24px;
+    padding: 12px 12px 24px;
+    text-align: center;
+    box-shadow: 4px 4px 8px 0px grey;
+}
+
+.card p {
+    font-size: 18px;
+    flex: 1;
+    margin-top: 0px;
+}
+
+.one-card {
+    align-items: center;
+    margin: 48px 0px;
+}
+
+.one-card .card {
+    border: 0px;
+    box-shadow: none;
+}
+
+.one-card {
+    display: flex;
+}
+
+
+.one-card .card img {
+    width: 100%;
+}
