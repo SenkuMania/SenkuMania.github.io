@@ -136,3 +136,137 @@ body {
 #footer-column-navbar a {
     padding: 8px 0px;
 }
+
+#info h1 {
+    text-align: center;
+    font-family: cursive;
+    font-size: 50px;
+}
+
+#info p {
+    text-align: left;
+}
+
+#info a {
+    font-size: 20px;
+    display: inline-block;
+    border-radius: 20px;
+    background-color: #e1a177;
+    color: rgb(254, 255, 255);
+    text-decoration: none;
+    padding: 24px;
+    margin: 5vh 5vw 10vh 0px;
+}
+
+#card-style-1 {
+    min-width: 350px;
+    margin: 24px auto;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    flex
+}
+.card-style-1 img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+.card-style-1 h2 {
+    font-size: 24px;
+    text-align: center;
+    color: black;
+    font-family: 'Arial';
+    background-color: rgb(255, 250, 250);
+}
+.card-style-1 p {
+    font-size: 15px;
+    text-align: center;
+    padding: 10px;
+}
+
+#fox-card-1 {
+    margin: 24px;
+    padding: 20px;
+    width: 350px;
+  background-color: white;
+  box-shadow: 4px 2px 4px #7c7c7c;
+}
+
+.anchor-button {
+    display: block;
+    background-color: #f0d0af;
+    border-radius: 25% 15% 25%;
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    text-align: center;
+    padding: 15px;
+    transition: 
+    background-color .5s, 
+    color .5s;
+}
+.anchor-button:hover {
+    border: 1px solid green;
+}
+
+#technology h1 {
+    text-align: center;
+    font-family: cursive;
+}
+
+.image-container img {
+    width: 50%;
+    float: right;
+}
+
+#foxtale h1 {
+    text-align: center;
+    font-family: cursive;
+    font-size: 50px;
+}
+
+#foxtale p {
+    text-align: left;
+}
+
+#foxtale img {
+    width: 300px;
+}
+
+#foxtale a {
+    font-size: 20px;
+    display: inline-block;
+    border-radius: 20px;
+    background-color: #e1a177;
+    color: rgb(254, 255, 255);
+    text-decoration: none;
+    padding: 24px;
+    margin: 5vh 5vw 10vh 0px;
+}
+
+#ingredients h1 {
+    text-align: center;
+    font-family: cursive;
+    font-size: 50px;
+}
+
+#ingredients p {
+    text-align: right;
+}
+
+#ingredients a {
+    font-size: 20px;
+    display: inline-block;
+    border-radius: 20px;
+    background-color: #e1a177;
+    color: rgb(254, 255, 255);
+    text-decoration: none;
+    padding: 24px;
+    margin: 5vh 5vw 10vh 0px;
+}
+
+#ingredients img {
+    width: 300px;
+    float: left;
+}
