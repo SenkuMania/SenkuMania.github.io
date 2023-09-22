@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-image: url(../images/retro-seamless-background-coffee-theme-engraving-style-this-design-can-be-used-packaging-as-wallpaper-restaurant-kitchen_300579-435.avif);
+}
+
+#navbar {
+    background: linear-gradient(to bottom, rgb(127, 93, 43), #493113);
+    display: flex;
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Verdana';
+    position: sticky;
+    top: 0px;
+}
+
+#navbar a {
+    text-decoration: none;
+    font-family: 'Verdana';
+    font-size: 15px;
+    color: rgb(255, 251, 251);
+    padding: 24px;
+}
+
+#navbar img {
+    width: 60px;
+}
+
+#nabar #logo {
+    margin-right: auto;
+}
+
+#navbar h1 {
+    text-align: left;
+}
+
+#navbar-bottom {
+    padding: 20px;
+    background: linear-gradient(to bottom, rgb(113, 77, 47), #9b6b30);
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Verdana';
+}
+
+#navbar-bottom a {
+    text-decoration: none;
+    color: white;
+    padding: 12px 36px;
+}
+
+#ourmenu {
+    background-color: aliceblue;
+    height: 800px;
+    border: 10px solid saddlebrown;
+}
+
+#ourmenu h1 {
+    text-align: center;
+    font-family: 'Verdana';
+    font-size: 50px;
+    color: aliceblue;
+}
+
+#ourmenu h2, h3, p{
+    text-align: center;
+    font-family: Verdana;
+}
+
+#ourmenu img {
+    float: left;
+    width: 400px;
+    padding: 20px;
+}
+
+.column {
+    flex: 30%;
+    padding: 5px;
+    display: inline-block;
+  }
+
+  .column {
+    flex: 30%;
+    padding: 5px;
+  }
+
+  #column img {
+    width: 100%;
+    padding: 10px;
+  }
+  .container {
+     display: flex;
+  }
+
+  #footer {
+    background: linear-gradient(to bottom, rgb(211, 200, 211), #7926ff);
+    color: rgb(9, 9, 9);
+    padding: 12px;
+}
+
+#footer a {
+    text-decoration: none;
+    color: white;
+}
+
+#footer {
+    background: linear-gradient(to bottom, rgb(127, 93, 43), #493113);
+    color: white;
+    padding: 40px;
+}
+
+#footer a {
+    text-decoration: none;
+    color: white;
+}
+
+#footer-navbar {
+    width: 800px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer-columns-navbar {
+    width: 800px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer-columns-navbar div {
+    display: flex;
+    flex-direction: column;
+}
+
+#footer-column-navbar a {
+    padding: 8px 0px;
+}
