@@ -1,0 +1,172 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif; 
+    background-color: red;
+}
+
+.center-column {
+    width: 50%; 
+    min-width: 500px;
+    margin: 0px auto; 
+}
+#owners {
+   background-color: blue;
+    padding: 0px;
+   margin: 40px;
+}
+
+#owners h1 {
+    text-align: center;
+    color: #fbf5f5;
+    font-family: 'Impact';
+    padding: 10px;
+    font-size: 15px;
+}
+
+#theme {
+    background-color: blue;
+     padding: 0px;
+     margin: 20px;
+ }
+
+#theme h1 {
+    text-align: center;
+    color: #fffbfb;
+    font-family: 'Impact';
+    padding: 20px;
+    font-size: 25px;
+}
+
+#event {
+    background-color: blue;
+     padding: 0px;
+     margin: 30px;
+ }
+
+#event h1 {
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Impact';
+    padding: 10px;
+    font-size: 25px;
+}
+
+#banner img {
+    border: 5px solid white;
+    float: left;
+    margin-right: 10px;
+    width: 200px;
+    height: 300px;
+}
+
+#vs {
+    float: left;
+    padding: 20px;
+    margin:;
+}
+
+#vs h1 {
+    text-align: center;
+    font-family: 'Impact';
+    color: #fbf5f5;
+}
+
+#banner2 img {
+    border: 5px solid white;
+    width: 200px;
+    height: 300px;
+}
+
+#date {
+    background-color: blue;
+    padding: 0px;
+    margin: 20px;
+}
+
+#date h1 {
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Impact';
+    padding: 24px;
+    font-size: 25px;
+}
+
+#promote {
+    background-color: blue;
+    padding: 0px;
+    margin: 10px;
+}
+
+#promote h2 {
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Impact';
+    padding: 2px;
+    font-size: 20px;
+}
+
+#provide {
+    background-color: blue;
+    padding: 0px;
+    margin: 10px;
+}
+
+#provide h2 {
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Impact';
+    padding: 2px;
+    font-size: 20px;
+}
+
+#location {
+    background-color: blue;
+     padding: 0px;
+    margin: 40px;
+ }
+ 
+ #location h1 {
+     text-align: center;
+     color: #fbf5f5;
+     font-family: 'Impact';
+     padding: 1px;
+     font-size: 11px;
+ }
+ 
+#answer1 {
+    float: right;
+}
+
+#answer2 {
+  float: left;
+}
+
+ .anchor-button {
+    background-color: blue;
+    color: white;
+    font-family: 'Impact';
+    text-decoration: none;
+    font-size: 24px;
+    padding: 20px;
+}
+.anchor-button:hover {
+    border: 1px solid green;
+}
+
+#contact {
+    background-color: blue;
+     padding: 0px;
+    margin: 40px;
+ }
+ 
+ #contact h3 {
+     text-align: center;
+     color: #fbf5f5;
+     font-family: 'Impact';
+     padding: 1px;
+     font-size: 11px;
+ }
